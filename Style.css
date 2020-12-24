@@ -1,0 +1,47 @@
+.header{
+
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 25px;
+    animation-name: example;
+    animation-duration: 8s;
+
+}
+@keyframes example {
+    from {background-color: blue;}
+    to {background-color: yellow;}
+
+  }
+.game{
+
+    background-color: #808080;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.text1{
+
+    background: cadetblue;
+    text-align: center;
+
+}
+.media{
+
+    background: aliceblue;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.shadow{
+
+    text-shadow: 2px 2px red;
+
+}
+.backdrop{
+
+    background: blue;
+
+}
+    h1 {color: rgb(128,128,128)}
